@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
 # Set default working directory
 WORKDIR /app
 
-# Install Poetry
+# Install Poetry j
 RUN pip install poetry
 
 # Copy project files
